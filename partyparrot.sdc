@@ -12,7 +12,8 @@
 #**************************************************************
 create_clock -name mco -period 41.667 -waveform {0.000 20.834} [get_ports {mco}]
 create_generated_clock -name clk36m -source [get_ports {mco}] -master_clock mco -divide_by 2 -multiply_by 3 [get_nets {clk36m}]
-create_generated_clock -name clk9m -source [get_ports {mco}] -master_clock mco -divide_by 8 -multiply_by 3 [get_nets {clk9m}]
+create_generated_clock -name clk9m -source [get_ports {mco}] -master_clock mco -divide_by 8 -multiply_by 3 [get_nets {clk36m}]
+//create_generated_clock -name clk9m -source [get_ports {mco}] -master_clock mco -divide_by 8 -multiply_by 3 [get_nets {clk9m}]
 
 #**************************************************************
 # Set Input Delay

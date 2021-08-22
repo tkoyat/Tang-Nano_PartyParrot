@@ -29,7 +29,7 @@ Tang-Nanoに搭載されているGW1N-1には18KbitのブロックSRAM(B-SRAM)�
 
 
 # 開発環境
-- IDE : GOWIN FPGA Designer Version1.9.2.02 Beta build(35976)
+- IDE : GOWIN FPGA Designer Version1.9.8 build(54687)
 
 # Resource Usage Summary:
 |  Resource  |  Usage |  Utilization  |
